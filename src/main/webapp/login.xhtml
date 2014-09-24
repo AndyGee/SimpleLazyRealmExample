@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div id="login">
+      <h1>Login</h1>
+      For protected login use username "admin" and no password.
+      <form method="POST" action="j_security_check" class="ym-form ym-full">
+        <ul class="ym-fbox-text">
+          <li>
+            <label for="username" class="ym-label">Username:</label>
+            <input type="text" id="username" name="j_username" alt="Benutzername" tabindex="1" autofocus="autofocus" />
+          </li>
+          <li>
+            <label for="password" class="ym-label">Password:</label>
+            <input type="password" id="password" name="j_password" alt="Passwort" tabindex="2" />
+          </li>
+        </ul>
+        <input type="submit" name="Login" tabindex="3" class="b" value="Login" />
+      </form>
+      
+    </div>
+  </body>
+</html>
